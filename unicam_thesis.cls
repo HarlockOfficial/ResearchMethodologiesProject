@@ -85,7 +85,7 @@
 \RequirePackage[english]{varioref}
 \RequirePackage[english]{babel}
 \RequirePackage[babel]{csquotes}
-\RequirePackage[style=alphabetic, backend=biber]{biblatex}
+\RequirePackage[style=numeric, backend=biber]{biblatex}
 \RequirePackage{colortbl}
 
 \RequirePackage[final]{listings}
