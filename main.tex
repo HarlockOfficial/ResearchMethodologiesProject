@@ -1,0 +1,55 @@
+\documentclass{unicam_thesis}
+\usepackage[utf8]{inputenc}
+\usepackage{listings}
+%\usepackage[backend=bibtex]{biblatex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TESI DATI FRONTESPIZIO
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title{Healthcare - Diabetes Prediction}
+\subtitle{Research Methodologies}
+
+\university{University of Camerino}%
+\school{Sciences and Technologies}%
+\course{Master degree in Computer Science (LM-18)}%
+
+
+\author{Filippo Lampa}%
+\authortwo{Francesco Moschella}%
+\authorthree{Marco Serenelli}%
+\advisor{Andrea Morrichetta}%
+\advisortwo{Romeo Pruno}%
+\academicyear{2018/2019}%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% FINE DATI FRONTESPIZIO
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\graphicspath{{Screenshot/},{Immagini/},{API/},{Source/},{Figures}}
+\bibliography{biblio.bib}
+%\addbibresource{biblio.bib}
+\begin{document}
+
+\maketitle
+
+\input{abstract}
+
+\tableofcontents
+\lstlistoflistings
+\listoffigures
+\listoftables
+
+\input{Chapters/introduction}
+\input{Chapters/related_works}
+
+%\appendix
+%\input{schema_elettrico}
+%\input{Appendix1}
+%\input{Appendix2}
+
+%\printbibliography
+
+%\printindex
+
+%\include{ringraziamenti}
+
+\end{document}
